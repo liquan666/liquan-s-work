@@ -1,0 +1,17 @@
+import turtle as t
+t.setup(650,350,50,200)
+t.penup()
+t.goto(-50,-100)
+t.pendown()
+for i in range(4):
+    t.penup()
+    t.fd(50)
+    t.pendown()
+    t.fd(100)
+    t.penup()
+    t.fd(50)
+    t.left(90)
+t.penup()
+t.goto(-50,-50)
+t.seth(-90)
+t.done()
