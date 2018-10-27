@@ -3,7 +3,7 @@ s=randint(0,100)
 count=0
 while True:
     try:
-        n=eval(input("0-100之间的整数:"))
+        n=int(input("0-100之间的整数:"))
     except:
         print("输入错误，请输入一个整数！")
         continue
